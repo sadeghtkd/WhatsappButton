@@ -1,0 +1,27 @@
+{
+
+  "manifest_version": 2,
+  "name": "Whatsapp Button",
+  "version": "1.0",
+
+  "description": "Open conversation to a Whatsapp number in Whatsapp desktop.",
+
+  "icons": {
+    "48": "icons/icon.png"
+  },
+ 
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "whatsappbtn@partsilicon.com"
+    }
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/icon.png",
+      "32": "icons/icon.png"
+    },
+    "default_popup": "popup.html",
+    "browser_style": true
+  }
+
+}
